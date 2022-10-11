@@ -1,0 +1,28 @@
+A message is considered as valis id:
+
+* Every opening bracket is followed by its corresponding closing brackets includes[] () {}
+* Open brackets must be closed by the same type of brackets.
+* Open brackets must be closed in the same order.
+* The message should not contain any other characters other than upper and lower case alphabets, digits from 0 to   9, and opening and closing brakcets mentioned above.
+
+Write a programme to check if the given String is Valid. If the String is Valid return True else False.
+
+If it is false, then return the index at which the initial mistake occures.
+
+If the String is Valid return the lase index.
+
+If the String is invalid due to brackets that are not closed, return the length of the message.
+
+The index starts at 0.
+
+Output format ->[Boolean, Index]
+
+Sample input:
+Input : (788362[)]
+Output : [False, 8]
+
+Input: (54)[str]
+Output : [True, 8]
+
+Input: [{(abc)}]
+Output: [True, 8]
